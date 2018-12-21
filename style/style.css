@@ -2,8 +2,7 @@ body{
     background: rgba(0,0,0,0.9);
     margin: 0;
     color: white; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* this is like creating a div element in the DOM 
@@ -50,10 +49,10 @@ the backgroud picture goes back to normal */
          transition: all 1000ms;  
     }
 
-    .content .logo{
+    /* .content .logo{
         height: 180px; 
         width: 180px; 
-    }
+    } */
 
     .navbar-brand{
         display: none;  
