@@ -55,6 +55,13 @@ the backgroud picture goes back to normal */
         width: 180px; 
     }
 
+    .navbar-brand{
+        display: none;  
+    }
+    .nav-link{
+        color: white; 
+    }
+
     .content .title{
         font-size: 3.2rem; 
         margin-top: 1rem; 
@@ -113,16 +120,25 @@ the backgroud picture goes back to normal */
             height: 50vh; 
         }
         .content{
-            top: 5%; 
+               
+            top: 30%; 
             margin-top: 5px; 
         }
-
+        /* hids the logo in the middle of the page */
         .content .logo{
-            height:140px;
-            width:140px; 
+            display: none;  
+        }
+
+        .navbar-brand{
+            display: inline;   
         }
         .content .text{
             display: none; 
+        }
+
+        .content .title{
+            
+            font-size: 2.2rem;
         }
 
         .grid-3,
