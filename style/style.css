@@ -56,14 +56,16 @@ the backgroud picture goes back to normal */
     }
 
     .content .title{
-        font-size: 2.2rem; 
+        font-size: 3.2rem; 
         margin-top: 1rem; 
+        color: black; 
 
     }
-
+    
     .content .text{
         line-height: 1.7; 
         margin-top: 1rem; 
+        color: black; 
     }
 
     .container{
