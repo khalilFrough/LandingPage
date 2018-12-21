@@ -104,3 +104,44 @@ the backgroud picture goes back to normal */
     footer p{
         margin:0px; 
     }
+
+    /* smaller screens for ipad  */
+    @media (max-width: 560px) {
+        .showcase::after{
+            height: 50vh; 
+        }
+        .content{
+            top: 5%; 
+            margin-top: 5px; 
+        }
+
+        .content .logo{
+            height:140px;
+            width:140px; 
+        }
+        .content .text{
+            display: none; 
+        }
+
+        .grid-3,
+        .grid-2{
+            grid-template-columns: 1fr;
+        }
+        .services div{
+            border-bottom: #333 dashed 1px; 
+            padding: 1.2 rem 1rem; 
+        }
+    }
+
+    /* landscape moode for ipads */
+
+    @media(max-height: 500px){
+        .content.title, 
+        .content.text{
+            display: none; 
+        }
+        content{
+            top: 0%; 
+        }
+    }
+    
