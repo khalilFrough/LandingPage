@@ -12,7 +12,7 @@ like but i prefer doing with CSS which injects this picture in the DOM */
     content:'';
     height: 100vh; 
     width: 100%; 
-    background-image: url(../Media/1.jpeg);
+    background-image: url(../Media/2.jpeg);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -125,18 +125,33 @@ the backgroud picture goes back to normal */
         padding:2em 0.5rem;
         margin:1rem;
     }
+    .about-info img{
+        width:100%;
+    }
 
     .jobs{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         text-align: center;
+        grid-gap: 0.5em;
         margin:1rem;
     }
+    /* fitting the images into their contents */
     .jobs img{
         width:100%;
     }
-    .image{
-        padding:0.3rem;
+    /* pushing the texts abit lower */
+    .jobs,h6,p{
+        margin-top:2rem;    
+    }
+    .job1{
+        border: 1px solid green;
+    }
+    .job2{
+        border: 1px solid green;
+    }
+    .job3{
+        border: 1px solid green;
     }
 
 
@@ -146,11 +161,10 @@ the backgroud picture goes back to normal */
             height: 50vh; 
         }
         .content{
-               
             top: 30%; 
             margin-top: 5px; 
         }
-        /* hids the logo in the middle of the page */
+        /* hides the logo in the middle of the page */
         .content .logo{
             display: none;  
         }
@@ -175,6 +189,22 @@ the backgroud picture goes back to normal */
             border-bottom: #333 dashed 1px; 
             padding: 1.2 rem 1rem; 
         }
+
+        /* about page */
+        .about-info{
+            display:grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 1rem;
+            padding:0.5rem 0.5rem;
+        }
+        .jobs{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            text-align: center;
+            grid-gap: 0.5em;
+            margin:1rem;
+        }
+
     }
 
     /* landscape moode for ipads */
