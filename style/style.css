@@ -22,7 +22,7 @@ like but i prefer doing with CSS which injects this picture in the DOM */
     transition: all 1000ms; 
 }
 
-/* this is the opposite of shoecase:: after class, while the mouse is over it 
+/* this is the opposite of showcase:: after class, while the mouse is over it 
 the backgroud picture goes back to normal */
 
 .showcase:hover::after{
@@ -112,6 +112,33 @@ the backgroud picture goes back to normal */
     footer p{
         margin:0px; 
     }
+    /* styling the about page starts here */
+    .title{
+        align-content: center;
+        padding:1rem;
+        margin:1rem;
+    }
+    .about-info{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+        padding:2em 0.5rem;
+        margin:1rem;
+    }
+
+    .jobs{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+        margin:1rem;
+    }
+    .jobs img{
+        width:100%;
+    }
+    .image{
+        padding:0.3rem;
+    }
+
 
     /* smaller screens for ipad  */
     @media (max-width: 560px) {
